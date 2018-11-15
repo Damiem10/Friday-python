@@ -1,5 +1,8 @@
-
-
+answer = input('what do we say at the begining of our class?: ').strip().lower()
+if answer == "helloworld":
+   print("this is correct")
+else:
+  print("please try again")
 
 
 
